@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap" rel="stylesheet">
+</head>
+<style>
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:left;
+            list-style: none; 
+            margin: 13px 20px;
+            
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: rgb(32, 32, 32);
+        }
+        .navbar li a:hover{
+            color: rgb(231, 227, 227)
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+        .navbar input{
+            border: 2px solid rgb(69, 67, 67);
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+        
+    body{ background-image: url(https://images.pexels.com/photos/262367/pexels-photo-262367.jpeg?cs=srgb&dl=pexels-pixabay-262367.jpg&fm=jpg);
+         background-size: 1670px;background-repeat: no-repeat; font-family : 'BIZ UDPMincho', serif; }
+
+         .container1{
+            height: 210px; 
+            width: 100%;            
+            display: flex;
+             justify-content: space-evenly;}
+          
+             .container2{
+            height: 210px; 
+            width: 100%;
+            display: flex;
+             justify-content: space-evenly;}
+    
+
+         .item{ width: 200px;
+            height: 170px;
+            background-color: rgb(214, 212, 212);
+            margin: 10px;
+            padding: 3px;} 
+           
+            .pic{ width: 200px;
+            height: 200px;
+            margin: 10px;
+            padding: 3px;}
+
+            #item1{background-image: url(https://images.wallpapersden.com/image/download/architecture-minimal_a2ZubWmUmZqaraWkpJRobmplrWdnZ2c.jpg);}
+            
+form { max-width:420px; margin:50px auto; background-color: ; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid rgb(0, 0, 0);
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:rgb(42, 42, 42);
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:rgb(140, 255, 165); }
+    
+</style>
+<body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this website">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    
+    <br><br><br><br>
+    &nbsp; &nbsp;&nbsp;&nbsp; <span style="font-size: 43px;"> MG architects & studios </span>
+ <hr width="603px" align="left" >
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ SIMPLY BRILLIANT
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ <h2 align="center">ABOUT US</h2> <hr align="center" width="200px">
+ <br><br><br><br>
+ <div class="container2">
+     <div class="pic" id="pic-1"> <img src="wallpapersden.com_architecture-minimal_3950x2222.jpg" width="200px" height="200" alt="error"></div>
+     <div class="pic" id="pic-3"><img src="Screenshot 2022-04-03 200432.jpg" width="200px" height="200px" alt="error"></div>
+     <div class="pic" id="pic-2"><img src="4075784.jpg" width="200px" height="200px" alt="error"></div>
+    </div>
+    
+    <div class="container1">
+        <div class="item" id="item-1"><h3>OUR FIRM STORY</h3> Lorem ipsum dolorcipit quas deserunt vel, harum accusamus modi, quaerat dolore, inventore molestias aliquam officiis atque iste sapiente quod. </div>
+        <div class="item" id="item-2"><h3>ABOUT OUR DESIGNERS</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error rem eius repudiandae nes impedit, labore hic. </div>
+        <div class="item" id="item-3"><h3>ACHIEVEMENTS</h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat natus nostrum dolorem sint voluptas necessitatibus nihil inventore provide</div>
+    </div>
+    <hr>
+    <form>      
+        <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+        <input name="email" type="text" class="feedback-input" placeholder="Email" />
+        <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+        <input type="submit" value="SUBMIT"/>
+      </form>
+</body>
+</html>
